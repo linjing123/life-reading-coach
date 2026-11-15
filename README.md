@@ -18,9 +18,8 @@
 ### 使用 GitHub CLI
 
 ```bash
-gh skill install linjing123/life-reading-coach life-reading-coach \
-  --agent codex \
-  --scope user
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --url https://github.com/linjing123/life-reading-coach/tree/main/life-reading-coach
 ```
 
 ### 手动安装
